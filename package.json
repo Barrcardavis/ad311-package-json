@@ -1,7 +1,7 @@
 {
   "name": "package-json-assignment",
   "version": "1.0.0",
-  "description": "Explore Package Json ",
+  "description": "Explore Package Json",
   "keywords": [
     "node",
     "package.json",
@@ -9,12 +9,26 @@
   ],
   "license": "ISC",
   "author": "David Davis",
-  "type": "commonjs",
-  "main": "index.js",
-  "scripts": {
-    "test": "node test.js"
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/Barrcardavis/ad311-package-json.git"
+},
+
+"engines": {
+  "node": ">=18",
+  "npm": ">=9"
+},
+
+"type": "commonjs",
+"main": "index.js",
+"scripts": {
+  "start": "node index.js",
+  "test": "node test.js"
   },
   "dependencies": {
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
   }
 }
